@@ -17,16 +17,9 @@ My implementation for face recognition using FaceNet model and Triplet Loss. I l
 ```
 root folder 
 │
-└───Person 1
-│   │───IMG1
-│   │───IMG2
-│   │   ....
-└───Person 2
-|   │───IMG1
-|   │───IMG2
-|   |   ....
-```
-
+└───Person 1 Image
+└───Person 2 Image 
+2. Use `image_creation.py` to create multiple images for the data
 
 2. Use `align_dataset_mtcnn.py` to prepare our dataset for training. Run the following command:
 
